@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soldier REST API</title>
+</head>
+<body>
+<h2>Soldier REST API</h2>
+<caption>WEB Services</caption>
+<table cellpadding="20">
+  <tr>
+    <th>Method</th>
+    <th>URL path</th>
+    <th>Service</th>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>http://localhost:8080/soldiers</td>
+    <td>All soldiers</td>
+  </tr>
+  <tr>
+    <td>GET {id}</td>
+    <td>http://localhost:8080/soldiers/{id}</td>
+    <td>Selected soldier</td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td>http://localhost:8080/soldiers</td>
+    <td>Recruit new soldier</td>
+  </tr>
+  <tr>
+    <td>PATCH</td>
+    <td>http://localhost:8080/soldiers/{badges}</td>
+    <td>Update number of badges</td>
+  </tr>
+<tr>
+  <td>PUT</td>
+  <td>http://localhost:8080/soldiers/{id}</td>
+  <td>Change properties of soldier</td>
+</tr>
+<tr>
+  <td>Delete</td>
+  <td>http://localhost:8080/soldiers/{id}</td>
+  <td>Dismantle soldier</td>
+</tr>
+</table>
+</body>
+</html>

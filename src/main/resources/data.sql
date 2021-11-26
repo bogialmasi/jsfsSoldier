@@ -1,0 +1,2 @@
+INSERT INTO soldier(rank, badges, birthdate, weapon, intact) VALUES('sergeant', 5, to_date('2000.01.01', 'yyyy.MM.dd'), 'MP18', true);
+INSERT INTO soldier(rank, badges, birthdate, weapon, intact) VALUES('captain', 15, to_date('1984.12.25', 'yyyy.MM.dd'), 'MP18', true);
